@@ -1,0 +1,20 @@
+package Javako;
+
+public class FindingTheNonRepeatedCharacters {
+
+
+  public static void main(String[] args) {
+   
+  String inputStr = "Alyanna mae";
+  for(char i : inputStr. toCharArray()) {
+    if(inputStr.indexOf(i) == inputStr. lastIndexOf(i)) {
+      
+      System.out.println("First non repeated character is; " +i);
+      
+    }
+  }
+  
+
+  }
+
+}
